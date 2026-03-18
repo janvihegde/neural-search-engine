@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Vector Storage & Data (Optional: usually kept local)
+backend/vector_storage/*.index
+backend/vector_storage/*.pkl
+data/processed/*.csv
+
+# React
+frontend/node_modules/
+frontend/build/
+.DS_Store
